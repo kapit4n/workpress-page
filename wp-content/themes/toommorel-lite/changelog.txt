@@ -1,0 +1,60 @@
+== Changelog ==
+= Theme Name: Toommorel Lite =
+
+= Version: 1.4 ==
+* Support Link Button Added In Customizer 
+
+= Version: 1.3.9 ==
+* Theme option to WordPress customizer API migration.
+
+= Version: 1.3.8 =
+***************************
+* Theme check issue fixed.
+* All text domain matched with theme directory.
+* Language .pot file matched with text domain.
+* Use add_theme_support( 'title-tag' ) with after_theme_setup hook and removed title tag from header.php.
+* Escaped Some Hard coded link. 
+
+* Version: 1.3.7
+***************************************
+1. Fixed: screen_icon() found in the file plugin-activation.php. Deprecated since version 3.8 issue.
+2. Fixed: get_current_theme() found in the file theme-options.php. Deprecated since version 3.4. issue.
+3. Fixed: Google-font request has been blocked; the content must be served over HTTPS issue.
+
+* Version: 1.3.6
+***************************************
+1. front-page.php removed for user reading setting configuration.
+
+* Version: 1.3.5
+***************************************
+1. Fixed: theme copyright issue.
+2. Fixed: resources license issue.
+3. Fixed: stylesheet uri issue.
+4. Fixed: translatable text issue.
+5. Fixed: hard coded social link code issue.
+6. Fixed: footer copyright issue.
+7. Fixed: 404 searchform issue.
+8. Fixed: front-page.php issue.
+9. Fixed: wrong textdomain issue.
+10.Fixed: deprecated constant isue.
+11.Fixed: warning issue on style.css tags.
+12.Fixed: screenshot size issue.
+13.Fixed: php/script issue.
+14.Fixed: recommend issue.
+
+* Version: 1.3.4
+***************************************
+1. Theme url changed.
+2. Removed query_posts and used wp_query instead.
+3. Removed wp_enqueue_script('jquery').
+4. Escaped all urls.
+5. Option added for disable default front page.
+6. Site title and site description added in header, if site logo uploaded via theme option, site title and description will be disappeared.
+7. Removed analytic option.
+8. All supporting function hooked into after_setup_theme hook.
+9. Added plugins notification for recommends plugin.
+10.Replace preg_replace function with ereg_replace.
+11.Options made for values save in a single array.
+12.Code spaces removed and code formated.
+13.Removed bundled fonts
+14.Removed cufon jquery and ui.
