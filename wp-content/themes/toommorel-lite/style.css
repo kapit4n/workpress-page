@@ -744,6 +744,7 @@ a.btn:hover {
     padding-left:30px;
     padding-right:30px;
     padding-bottom:30px;
+    display: none;
 }
 .sidebar .side_wrapper h4 {
     color:#555555;
